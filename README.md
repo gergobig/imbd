@@ -11,3 +11,6 @@ You need Python version 3.8+ and an API key for OMDB API. You can register at ht
 1. If you want to use OMBD API add your API key to environment variables. `export OMBD_API_KEY=<YOUR_API_KEY>` else just go to the next step.
 1. You can run script with `python imbd/run.py`
 1. Output is saved to root folder.
+
+## How to test
+1. Run `make test`.
